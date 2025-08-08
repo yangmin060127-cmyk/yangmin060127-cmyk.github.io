@@ -3,7 +3,7 @@ const FormAutoFill = new Vue({
   data: {
 
     // Google Apps Script 部署為網路應用程式後的 URL
-    gas: 'https://script.google.com/macros/s/AKfycbwyY7oLpoZ4lbcIwIWniLZ8U_pY8e7YBK9fakeszgR_77S2u1SV/exec',
+    gas: 'https://script.google.com/macros/s/1-SujpzpNewtAqowdHnICpd6uyfdRJIf3f7GAxlaHEbA/exec',
 
     id: '',
 
@@ -14,16 +14,16 @@ const FormAutoFill = new Vue({
     person: {},
 
     // Google Form 的 action URL
-    formAction: 'https://docs.google.com/forms/u/0/d/e/1FAIpQLSeNBnd-yVJ7_-tMq5xaQrvt0j18UtabCFBTM0Eu2O3ivDecuQ/formResponse',
+    formAction: 'https://docs.google.com/forms/u/0/d/e/1FAIpQLSdzpELlY9_8LlBL63krQSz4rvW92otiJOb3so3DW7dvNQiUz/formResponse',
     
     // Google Form 各個 input 的 name
     input: {
-      id: 'entry.1815052017',
-      name: 'entry.1543576845',
-      gender: 'entry.892230025',
-      phone: 'entry.1003128242',
-      site: 'entry.260985931',
-      msg: 'entry.1782841550'
+      id: 'entry.1214180640',
+      name: 'entry.983416634',
+      gender: 'entry.234035385',
+      phone: 'entry.1223898217',
+      site: 'entry.694005764',
+      msg: 'entry.1235097295'
     },
 
     // loading 效果要不要顯示
